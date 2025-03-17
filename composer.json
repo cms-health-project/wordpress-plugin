@@ -1,0 +1,13 @@
+{
+    "name": "wordpress/cms-health",
+    "description": "WordPress plugin implementing the CMS Health Project standard",
+    "type": "wordpress-plugin",
+    "require": {
+        "cms-health-project/serializable-reference-implementation": "^0.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WordPressCmsHealth\\": "src/"
+        }
+    }
+}
